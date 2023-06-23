@@ -1,24 +1,28 @@
+html, body {
+  height: 100%;
+}
+
 body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: #E9FFE9;
-    
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  .container {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 100%;
-    padding: 20px;
-    box-sizing: border-box;
-  }
-
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 560px;
+  height: 700px;
+  background-color: #E9FFE9;
+}
+  
   h1 {
     text-align: center;
-    font-size: 28px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
     margin-top: 0;
   }
 
@@ -33,19 +37,26 @@ body {
 
   p {
     text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
     font-size: 18px;
-    margin: 10px 0;
-  }
-  .button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 2;
   }
 
+  .button {
+    margin-top: 20px;
+    text-align: center;
+  }
   #button-iniciar {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
     background-color: #212121; 
     color: white; 
     border-radius: 5px; 
-    padding: 10px 20px; 
+    width: 142px;
+    height: 46px;
     border: none;
   }
