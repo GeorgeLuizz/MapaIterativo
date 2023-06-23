@@ -42,5 +42,5 @@ buttons.forEach(button => {
         placement: 'left-start',
         allowHTML: true,
         theme: 'light'
-})
+    })
 })  
