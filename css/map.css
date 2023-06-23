@@ -1,0 +1,27 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #E9FFE9;
+}
+
+.container {
+    max-width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+a {
+    cursor: pointer;
+}
+
+#svg-map path {
+    stroke: black;
+    stroke-width: 0.1;
+}
+
+.tooltip-state {
+    padding: 10px;
+    background-color: white;
+    color: black
+}
