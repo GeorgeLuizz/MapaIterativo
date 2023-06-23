@@ -44,31 +44,3 @@ buttons.forEach(button => {
         theme: 'light'
 })
 })  
-
-    /*
-
-
-    */
-
-
-/*
-const amazonas = document.getElementById("Caminho_6175")
-const para =  document.getElementById('Caminho_6152')
-const bahia =  document.getElementById('Caminho_6167')
-const matoGrosso =  document.getElementById('Caminho_6172')
-const minas =  document.getElementById('Caminho_6156')
-const rioGrandeSul =  document.getElementById('Caminho_6174')
-
-
-
-statesForInfo.forEach(state => {
-    const image = document.createElement('img');
-    image.setAttribute('src', '/images/info.png');
-    image.style.position = 'absolute';
-    image.style.left = '0';
-    image.style.top = '0';
-    image.style.width = '46px';
-    image.style.height = '46px';
-    state.appendChild(image);
-}); 
-*/
