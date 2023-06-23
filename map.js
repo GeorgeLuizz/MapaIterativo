@@ -30,8 +30,14 @@ buttons.forEach(button => {
         onHide: () => {
             buttonContainer.setAttribute('fill', '#000000')
         },
-        
-        content: 'info info',
+
+        content: () => {
+            const state = buttonsState.find(stt => stt.id === idButton)
+            if (state) {
+                return state.content
+            }
+            return 'Chave nao encontrada'
+        },
         trigger: 'click',
         placement: 'left-start',
         allowHTML: true,
