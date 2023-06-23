@@ -1,41 +1,41 @@
 html, body {
-  height: 100%;
+     height: 100%;
 }
 
 body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  width: 560px;
-  height: 700px;
-  background-color: #E9FFE9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 560px;
+    height: 700px;
+    background-color: #E9FFE9;
 }
   
-  h1 {
+h1 {
     text-align: center;
     font-family: 'Quicksand', sans-serif;
     font-size: 40px;
     margin-top: 0;
-  }
+}
 
-  img {
+img {
     max-width: 100%;
     height: auto;
     margin-top: 20px;
     display: block; 
     margin-left: auto; 
     margin-right: auto; 
-  }
+}
 
-  p {
+p {
     text-align: center;
     font-family: 'Quicksand', sans-serif;
     font-weight: 300;
@@ -43,13 +43,15 @@ body {
     margin-left: 50px;
     margin-right: 50px;
     line-height: 2;
-  }
+}
 
-  .button {
+.button {
     margin-top: 8px;
     text-align: center;
-  }
-  #button-iniciar {
+  
+}
+#button-iniciar {
+    cursor: pointer !important;
     font-family: 'Quicksand', sans-serif;
     font-size: 20px;
     font-weight: 100;
@@ -59,4 +61,4 @@ body {
     width: 142px;
     height: 46px;
     border: none;
-  }
+}
